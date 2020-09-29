@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+		<meta name="dhc-aware-page" data-indicator-element-id="apiTesterIndicator" />
+		<title><%= htmlWebpackPlugin.options.title %></title>
+		<link
+			rel="icon"
+			href="/assets/favicon.png"
+			sizes="16x16 32x32 64x64 128x128"
+			type="image/png"
+		/>
+		<link rel="stylesheet" href="/assets/glyphicon.css" />
+		<style>
+			#app {
+				max-height: 100vh;
+				overflow: hidden;
+				display: flex;
+				width: 100vw;
+			}
+			.tc-layout-two-columns {
+				height: 100vw;
+			}
+			html.focus-outline-hidden *:focus {
+				outline: none !important;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="app">
+			<%= htmlWebpackPlugin.options.loader %>
+		</div>
+		<div id="tooltip-root"></div>
+		<!-- the portal-root element is for attaching Portal widget children -->
+		<div id="portal-root"></div>
+	</body>
+</html>
