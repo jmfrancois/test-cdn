@@ -10,12 +10,13 @@ i18n.use(initReactI18next).init({
     }
 });
 
-ReactDOM.render(
-    <div>
-        <h1>Hello, world!</h1>
-
-        <Action onClick={(e) => console.log('clicked')} label="Hello"></Action>
-    </div>,
-    document.getElementById('app')
-);
-  
+if (document.getElementById('app')) {
+    ReactDOM.render(
+        <div>
+            <h1>Hello, world!</h1>
+    
+            <Action onClick={(e) => console.log('clicked')} label="Hello"></Action>
+        </div>,
+        document.getElementById('app')
+    );
+}
