@@ -10,8 +10,8 @@
   "author": "Talend Frontend <frontend@talend.com> (http://www.talend.com)",
   "license": "ISC",
   "devDependencies": {
-    "@talend/scripts-preset-react": "^7.0.0-alpha.25",
-    "@talend/scripts-core": "^7.0.0-alpha.25"
+    "@talend/scripts-core": "^7.0.0-alpha.28",
+    "@talend/scripts-preset-react": "^7.0.0-alpha.28"
   },
   "dependencies": {
     "@talend/bootstrap-theme": "^6.0.0-alpha.12",
@@ -22,6 +22,6 @@
     "react-dom": "^16.13.1",
     "react-i18next": "^11.7.3",
     "styled-components": "^5.2.0",
-    "uglify-js": "^3.10.4"
+    "uglify-js": "^3.11.0"
   }
 }
