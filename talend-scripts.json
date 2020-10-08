@@ -10,9 +10,6 @@
         "$brand-primary-t7": "#5D88AA"
       },
       "theme": "tfd"
-    },
-    "webpack": {
-      "debug": true
     }
   }
   
