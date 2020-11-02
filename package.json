@@ -11,27 +11,26 @@
   "author": "Talend Frontend <frontend@talend.com> (http://www.talend.com)",
   "license": "ISC",
   "devDependencies": {
-    "@talend/scripts-core": "^7.0.0-alpha.44",
-    "@talend/scripts-preset-react": "^7.0.0-alpha.44"
+    "@talend/scripts-core": "^7.0.0-alpha.45",
+    "@talend/scripts-preset-react": "^7.0.0-alpha.45"
   },
   "dependencies": {
-    "@babel/polyfill": "^7.11.5",
-    "@talend/babel-plugin-import-from-index": "^1.4.3",
-    "@talend/bootstrap-theme": "6.0.0-alpha.39",
-    "@talend/icons": "6.0.0-alpha.39",
-    "@talend/react-cmf": "6.0.0-alpha.39",
-    "@talend/react-cmf-router": "^3.4.0-alpha-4",
-    "@talend/react-components": "6.0.0-alpha.39",
-    "@talend/react-containers": "6.0.0-alpha.39",
-    "@talend/react-forms": "6.0.0-alpha.39",
-    "@talend/scripts-config-cdn": "^6.8.1",
+    "@babel/polyfill": "^7.12.1",
+    "@talend/babel-plugin-import-from-index": "^1.4.4",
+    "@talend/bootstrap-theme": "5.27.1",
+    "@talend/icons": "5.27.1",
+    "@talend/react-cmf": "5.27.1",
+    "@talend/react-cmf-router": "^3.5.0",
+    "@talend/react-components": "5.27.1",
+    "@talend/react-containers": "5.27.1",
+    "@talend/react-forms": "5.27.1",
     "core-js": "^3.6.5",
-    "i18next": "^19.8.2",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
+    "i18next": "^19.8.3",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
     "react-i18next": "^11.7.3",
     "regenerator-runtime": "^0.13.7",
     "styled-components": "^5.2.0",
-    "uglify-js": "^3.11.0"
+    "uglify-js": "^3.11.4"
   }
 }
